@@ -58,8 +58,9 @@ export default function CheckoutPage(){
       <Navbar/>
       <div className='checkout-container'>
         <div className='checkout-header'>
-          <FaArrowLeft className='left-arrow'/>
-          <p>Your Order Details</p>
+          <div className='arrow-bg'><FaArrowLeft className='left-arrow'/></div>
+          <p className='order-details'>Your Order Details</p>
+          <p className='checkout-text'>Checkout</p>
         </div>
         <div className='order-summary'>
           <div className='order-items'>

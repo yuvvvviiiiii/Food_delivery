@@ -113,7 +113,7 @@ export default function UserAddress(){
       <Navbar/>
         <div className="address-container">
           <div className="address-header">
-            <FaArrowLeft className="back-btn"/>
+            <div className='arrow-bg'><FaArrowLeft className="back-btn"/></div>
             <p>Your Addresses</p>
           </div>
           <div className="add-address" >

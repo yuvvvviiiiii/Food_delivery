@@ -17,7 +17,7 @@ export default function PaymentPage () {
       <Navbar/>
       <div className="payment-container">
         <div className="payment-header">
-          <FaArrowLeft className="back-arrow"/>
+          <div className='arrow-bg'><FaArrowLeft className="back-arrow"/></div>
           <p>Choose and Pay</p>
         </div>
         <div className="wallet-container">
@@ -38,6 +38,12 @@ export default function PaymentPage () {
             <div className='add-card'>
               <FaPlus className="card-plus"/>
               <p>Add Debit Card</p>
+            </div>
+            <div className="add-card">
+              <div className='circle-card'>
+                <p className='circle-text'>M</p>
+              </div>
+              <p className='card-name'>MasteroKard</p>
             </div>
           </div>
           <div className="total-amount">

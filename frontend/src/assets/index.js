@@ -33,6 +33,7 @@ import scooter_icon from '../assets/DeliveryScooter.png';
 import forward_icon3 from '../assets/Forward3.png';
 import profile_icon from '../assets/Ellipse11.png';
 import next_btn from '../assets/Nextpage.png';
+import next from '../assets/Next page.png';
 
 export {
   register_img,
@@ -69,5 +70,6 @@ export {
   scooter_icon,
   forward_icon3,
   profile_icon,
-  next_btn
+  next_btn,
+  next
 }

@@ -165,7 +165,7 @@ export default function ProfilePage (){
       <Navbar/>
       <div className="profile-container">
         <div className="profile-header">
-          <FaArrowLeft className='profile-arrow'/>
+          <div className='arrow-bg'><FaArrowLeft className='profile-arrow'/></div>
           <p>My Profile</p>
         </div>
         <div className="profile-section">
