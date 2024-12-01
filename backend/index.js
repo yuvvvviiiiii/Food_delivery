@@ -18,7 +18,11 @@ const MONGO_URL = process.env.MONGO_DB_URL;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+  origin: ["https://food-delivery-green-six.vercel.app"],
+  methods: ["POST", "GET", "PUT","PATCH", "DELETE"],
+  credentials: true
+}));
 
 
 
