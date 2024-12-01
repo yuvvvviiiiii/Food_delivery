@@ -1,0 +1,1193 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  width: 100vw;
+}
+
+.home-container{
+  padding: 0 30px;
+}
+
+.banner{
+  display: flex;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 20px;
+  /* padding: 30px 0 0 0; */
+}
+
+.left-section {
+  width: 600px;
+  position: absolute;
+  left: 2%;
+  top: 25%;
+}
+
+.banner-order{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(3, 8, 31, 1);
+}
+
+.postcode{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 66px;
+}
+
+.banner-input{
+  width: 75%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  outline: none;
+  background: none;
+  border-radius: 20px;
+}
+
+.left-section input{
+  border: none;
+  outline: none;
+  background: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.left-section button{
+  width: 50%;
+  border: none;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(252, 138, 6, 1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.feast{
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.fast{
+  font-size: 54px;
+  font-weight: 600;
+  color: rgba(252, 138, 6, 1);
+}
+
+.main-image{
+  width: 805px;
+  height: 540px;
+  position: relative;
+  z-index: 999999;
+  left: 20%;
+  top: 10%;
+}
+
+.main-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.right-section{
+  position: absolute;
+  width: 370px;
+  height: 450px;
+  left: 57%;
+  bottom: 0;
+  z-index: 2;
+}
+
+.right-section img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.orange-section{
+  background-color: rgba(252, 138, 6, 1);
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 20px;
+  width: 600px;
+  /* height: 380px; */
+  /* left: 17.9%; */
+  left: 53px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+
+.notification-1{
+  background-color: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 85px;
+  z-index: 3;
+  padding: 10px 15px;
+  position: absolute;
+  border-radius: 15px;
+  top: 15%;
+  left: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification-2{
+  background-color: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 85px;
+  z-index: 3;
+  padding: 10px 15px;
+  position: absolute;
+  border-radius: 15px;
+  top: 45%;
+  left: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification-3{
+  background-color: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 85px;
+  z-index: 3;
+  padding: 10px 15px;
+  position: absolute;
+  border-radius: 15px;
+  top: 74%;
+  left: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notify-logo{
+  width: 60px;
+  height: 15px;
+  margin-bottom: 2px;
+}
+
+.notify-title{
+  font-size: 12px;
+  font-weight: 600;
+  /* margin-bottom: 2px; */
+}
+
+.notify-title img{
+  height: 15px;
+  width: 15px;
+}
+
+.notify-title img{
+  text-align: center;
+}
+
+.notify-desc{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.now{
+  color: rgb(133, 130, 130);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.deals-header{
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.deals-header p{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.deals-btn{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+}
+
+.vegan-btn{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.Sushi-btn{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.pizza-btn{ 
+  border: 1px solid rgba(252, 138, 6, 1);
+  color: rgba(252, 138, 6, 1);
+  background: none;
+  width: 190px;
+  height: 55px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.pizza-btn img{
+  display: none;
+}
+
+.others-btn{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+
+.deals-restaurants{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.restaurant-card{
+  width: 470px;
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+  z-index: 99999;
+}
+
+.restaurant-card::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(3, 8, 31, 0.19), rgba(3, 8, 31, 0.89));
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.card-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-msg{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  z-index: 99999;
+}
+
+.card-title{
+  color: rgba(252, 138, 6, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-desc{
+  color: rgba(255, 255, 255, 1);
+  font-style: 24px;
+  font-weight: 700;
+}
+
+.discount-val{
+  width: 65px;
+  height: 50px;
+  background-color: rgba(3, 8, 31, 1);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.discount-val p{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.popular-categories {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.category-header{
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.category-restaurant{
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-card{
+  height: 240px;
+  width: 230px;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 20px;
+}
+
+.category-card img{
+  width: 100%;
+  height: 180px;
+}
+
+.category-name{
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.no-restaurant{
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 15px;
+  color: rgba(252, 138, 6, 1);
+}
+
+.banner-2{
+  display: flex;
+  background: linear-gradient(rgba(238, 238, 238, 1),rgba(224, 225, 220, 1));
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border-radius: 20px;
+  height: 530px;
+  position: relative;
+}
+
+.laughing-img{
+  width: 800px;
+  z-index: 99999;
+  bottom: -5px;
+  left: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.laughing-img img{
+  width: 700px;
+  height: 560px;
+}
+
+.laughing-bg{
+  width: 800px;
+  height: auto;
+  position: absolute;
+  left: 5px;
+  opacity: 0.3;
+  top: -45px;
+  object-fit: cover;
+}
+
+.laughing-bg img{
+  width: 700px;
+  height: 560px;
+}
+
+.banner2-right{
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  width: 750px;
+  text-align: right;
+}
+
+.banner-logo{
+  height: 90px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.banner-logo img{
+  height: 56px;
+  width: 240px;
+}
+
+.banner-logo span{
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: -6%;
+}
+
+.personal-msg{
+  height: 90px;
+  padding: 10px 25px;
+  width: 100%;
+  background-color: rgba(3, 8, 31, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+}
+
+.personal-msg p{
+  font-size: 54px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.banner2-msg{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.banner2-msg p{
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.banner-download{
+  height: 61px;
+  width: 90%;
+  margin-right: 50px;
+}
+
+.banner-download img{
+  width: 412px;
+  height: 100%;
+}
+
+.info-logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-logo{
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  position: relative;
+  background: linear-gradient( to left, rgba(255, 255, 255, 0), rgba(3, 8, 31, 0.19), rgba(3, 8, 31, 0.89));
+  border-radius: 20px;
+}
+
+.partner-logo img{
+  width: 100%;
+  height: 100%;
+}
+.partner-msg{
+  position: absolute;
+  top: 45%;
+  left: 40px;
+  z-index: 99999;
+}
+.partner-logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(3, 8, 31, 0.19), rgba(3, 8, 31, 0.89));
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.partner-title{
+  color: rgba(252, 138, 6, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.partner-desc{
+  color: rgba(255, 255, 255, 1);
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.logo-btn{
+  background-color: rgba(252, 138, 6, 1);
+  border: none;
+  padding: 10px 25px;
+  width: 170px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.top-msg{
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 0 0 10px 10px;
+  font-weight: 700;
+  z-index: 20;
+}
+
+
+.know-more{
+  background-color: rgba(217, 217, 217, 1);
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.know-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 50px;
+}
+
+.know-title{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+.right-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 650px;
+}
+
+.right-title{
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid rgba(252, 138, 6, 1);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 35px 40px;
+  width: 90%;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.about-left{
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.about-right{
+  width: 60%;
+  margin-right: 30px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.about-msg{
+  width: 85%;
+  margin-top: 30px;
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.right-card{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-card{
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 15px;
+  width: 220px;
+  height: 270px;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-title{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-card img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.about-desc{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.about-left{
+  width: 400px;
+}
+
+.about-left p{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.work-msg{
+  background-color:  rgba(252, 138, 6, 1);
+  border-radius: 25px;
+}
+
+.co-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 160px;
+  background-color: rgba(252, 138, 6, 1);
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.rider-info{
+  text-align: center;
+  width: 300px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.rider-title{
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.rider-desc{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.straight-mark{
+  color: rgba(217, 217, 217, 1);
+  font-size: 100px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px){
+  .banner{
+    height: 270px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(3, 8, 31, 1);
+    margin-top: 15px;
+  }
+
+  .left-section{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .banner-order{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  .feast{
+    font-size: 34px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .main-image{
+    display: none;
+  }
+  .right-section{
+    display: none;
+  }
+  .orange-section{
+    display: none;
+  }
+
+  .exclusive-deal{
+    width: 100%;
+  }
+
+  .deals-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .deals-header p{
+    width: 65%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .deals-btn{
+    width: 35%;
+  }
+
+  .vegan-btn{
+    display: none;
+  }
+
+  .Sushi-btn{
+    display: none;
+  }
+
+  .others-btn{
+    display: none;
+  }
+
+  .pizza-btn{
+    width: 85%;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border: 1px solid rgba(3, 8, 31, 1);
+    color: rgba(3, 8, 31, 1);
+  }
+
+  .pizza-btn img{
+    height: 22px;
+    width: 22px;
+    rotate: -90deg;
+  }
+
+  .deals-restaurants{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0;
+  }
+  .restaurant-card{
+    display: inline-flex;
+    width: 290px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .restaurant-card::before{
+    border-radius: 12px;
+  }
+
+  .restaurant-card img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-msg{
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .card-title{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+  }
+
+  .card-desc{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(3, 8, 31, 1);
+  }
+
+  .discount-val{
+    height: 45px;
+    width: 50px;
+  }
+
+  .discount-val p{
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: center;
+  }
+
+  .popular-categories{
+    margin: 0;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 10px 25px;
+  }
+
+  .category-header{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .category-restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .category-card{
+    width: 190px;
+    height: 210px;
+    background-color: rgba(3, 8, 31, 1);
+    margin: 10px;
+  }
+
+  .category-card img{
+    width: 100%;
+    height: 160px;
+  }
+
+  .category-name{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.5px;
+    color: rgba(252, 138, 6, 1);
+  }
+
+  .no-restaurant{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .banner-2{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 520px;
+  }
+
+  .laughing-img{
+    width: 320px;
+    height: 255px;
+    bottom: 0px;
+    left: 25%;
+  }
+
+  .laughing-img img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .laughing-bg{
+    height: 255px;
+    width: 320px;
+    top: 50%;
+    left: 24%;
+  }
+
+  .laughing-bg img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .banner2-right{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 250px;
+    top: 25px;
+    left: 10px;
+  }
+
+  .banner-logo{
+    height: 30px;
+    width: 100%;
+  }
+  .banner-logo img{
+    height: 100%;
+    width: 121px;
+  }
+
+  .banner-logo span{
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -6%;
+    line-height: 48px;
+  }
+  
+
+  .personal-msg{
+    height: 36px;
+    width: 100%;
+    padding: 0;
+    background: none;
+    color: rgba(3, 8, 31, 1);
+    border-radius: 0;
+    
+    display: flex;
+    justify-content: center;
+  }
+
+  .personal-msg p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -6%;
+  }
+
+  .personal-msg span{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-decoration: underline;
+    color: rgba(252, 138, 6, 1);
+  }
+
+  .banner2-msg{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+  }
+
+  .banner2-msg p{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .banner-download{
+    width: 100%;
+    margin-right: 0;
+    height: 42px;
+  }
+
+  .banner-download img{
+    width: 284px;
+    height: 100%;
+  }
+
+  .info-logo{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .partner-logo{
+    width: 100%;
+    height: 250px;
+  }
+
+  .partner-msg{
+    top: 40%;
+  }
+
+  .partner-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .partner-desc{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .logo-btn{
+    height: 29px;
+    width: 129px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.5px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .top-msg{
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+  }
+
+  .know-more{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: none;
+  }
+
+  .know-nav{
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .know-title{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  
+  .right-nav{
+    display: none;
+  }
+
+  .about-us{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .about-left{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about-left p{
+    font-weight: 700;
+    letter-spacing: -2%;
+  }
+
+  .about-right{
+    width: 85%;
+    height: fit-content;
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(3, 8, 31, 1);
+    border-radius: 20px;
+  }
+
+  .right-card{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about-card{
+    height: 285px;
+    width: 240px;
+    margin: 10px;
+  }
+
+  .about-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -2%;
+  }
+
+  .about-card img{
+    width: 128px;
+    height: 128px;
+  }
+
+  .about-desc{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -2%;
+  }
+
+  .about-msg{
+    margin: 10px;
+    width: 95%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .co-info{
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .rider-info{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .straight-mark{
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 0;
+    width: 35%;
+    margin: 10px;
+  }
+
+  .rider-title{
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 38px;
+  }
+
+  .rider-desc{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+}

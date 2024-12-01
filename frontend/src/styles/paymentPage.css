@@ -1,0 +1,144 @@
+.payment-container{
+  padding: 15px 25px;
+}
+
+.payment-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 48px;
+}
+
+.back-arrow{
+  width: 39px;
+  height: 39px;
+}
+
+.payment-header p{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-left: 15px;
+}
+
+.wallet-container{
+  height: 360px;
+  width: 90%;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet{
+  width: 65%;
+  margin-right: 20px;
+}
+
+.wallet-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(255, 232, 206, 1);
+  border-radius: 25px;
+  padding: 5px 25px;
+}
+
+.circle-icon{
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background-color: rgba(255, 232, 206, 1);
+}
+
+.wallet-icon{
+  color: rgba(252, 138, 6, 1);
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.wallet-info{
+  display: flex;
+  align-items: center;
+}
+
+.wallet-text{
+  margin-left: 15px;
+}
+
+.wallet-text p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.wallet-text span{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: rgba(131, 133, 138, 1);
+}
+
+.add-card{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 232, 206, 1);
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.card-plus{
+  height: 20px;
+  width: 20px;
+}
+
+.add-card p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.total-amount{
+  width: 35%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  height: 131px;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.amount-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount-header p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(131, 133, 138, 1);
+}
+
+.amount-header span{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.proceed-btn{
+  width: 100%;
+  background-color: rgba(252, 138, 6, 1);
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+}

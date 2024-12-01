@@ -1,0 +1,237 @@
+.nav-container{
+  padding: 0 30px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.nav-info{
+  margin-left: 20px;
+}
+
+.location{
+  display: flex;
+  width: 400px;
+  font-size: 14px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.location img{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.location p {
+  margin-right: 10px;
+}
+
+.location span{
+  color: rgba(252, 138, 6, 1);
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.cart-btn{
+  display: flex;
+  width: 308px;
+}
+
+.shopping-btn{
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  background-color: rgba(2, 134, 67, 1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 10px;
+}
+
+.shopping-btn img{
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.value-btn{
+  background-color: rgba(2, 134, 67, 1);
+  padding: 0px 15px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.forward-btn{
+  background-color: rgba(2, 134, 67, 1);
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 10px 0;
+}
+
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.nav-logo{
+  height: 50px;
+  width: 190px;
+  text-align: center;
+}
+
+.nav-logo img{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav-btn{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.login-btn{
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(3, 8, 31, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.orange-btn{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(252, 138, 6, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.home-btn{
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.browse-btn{
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.special-btn{
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.restaurants-btn{
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-btn img{
+  margin-right: 10px;
+}
+
+.nav-responsive{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .nav-container{
+    padding: 0;
+    margin: 0;
+  }
+  .navbar{
+    display: none;
+  }
+  .nav-content{
+    display: none;
+  }
+  .nav-responsive{
+    display: block;
+  }
+  .res-logo {
+    padding: 10px 25px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .res-logo img{
+    height: 50px;
+    width: 210px;
+  }
+
+  .res-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .res-user{
+    display: flex;
+    align-items: center;
+    background-color: rgba(252, 138, 6, 1);
+    padding: 10px 20px;
+    width: 50%;
+  }
+
+  .res-user img{
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+  }
+
+  .res-user p{  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .res-cart{
+    background-color: rgba(2, 134, 67, 1);
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .res-cart img{
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+  }
+
+  .res-cart p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,325 @@
+.footer-upper{
+  top: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgba(217, 217, 217, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.logo-section{
+  height: 190px;
+  width: 300px;
+}
+
+.logo-section p{
+  font-weight: 400;
+  font-size: 14px;
+  width: 300px;
+}
+
+.company-logo{
+  height: 50px;
+  /* margin-bottom: 10px; */
+  width: 250px;
+  padding: 5px;
+}
+
+.company-logo img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.download-icon{
+  height: 55px;
+  width: 350px;
+  padding: 10px;
+}
+
+.download-icon p{
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.download-icon img{
+  height: 100%;
+  width: 90%;
+}
+
+.logo-section p{
+  padding: 10px;
+}
+
+.subscribe-section{
+  width: 400px;
+  height: 190px;
+  margin-left: 30px;
+}
+
+.subscribe-section span{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.subscribe{
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: rgb(194, 193, 193);
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+}
+
+.subscribe input{
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  flex-grow: 1;
+  color: #555;
+  width: 65%;
+}
+
+.subscribe button{
+  width: 45%;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: rgba(252, 138, 6, 1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.msg {
+  margin-top: 0;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.msg span{
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icons{
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.add-info{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  height: 190px;
+  /* padding: 10px; */
+}
+
+.legal-page{
+  width: 250px;
+  margin-right: 19px;
+}
+
+.legal-page span{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.legal-page p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.important-link{
+  width: 250px;
+}
+
+.important-link span{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.important-link p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyrights-section{
+  background-color: rgba(3, 8, 31, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 15px;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+.copyright{
+  padding: 10px;
+  /* margin-left: 30px; */
+}
+
+.personal-info{
+  display: flex; 
+  /* margin-left: 150px; */
+  padding: 10px;
+}
+
+.personal-info p {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .footer-upper{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo-section{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .download-icon{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .logo-section p{
+    width: 100%;
+    text-align: center;
+  }
+
+  .company-logo{
+    width: 60%;
+    height: 10%;
+    margin-left: 70px;
+  }
+
+  .subscribe-section{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .add-info{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .icons{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  .legal-page{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .important-link{
+    width: 100%;
+  }
+
+  .subscribe{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(194, 193, 193);
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+  }
+
+  .subscribe input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex-grow: 1;
+    color: #555;
+    width: 65%;
+  }
+
+  .subscribe button{
+    width: 50%;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: rgba(252, 138, 6, 1);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+
+  .msg {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .msg span{
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .subscribe p{
+    margin-top: 10px;
+  }
+
+  .subscribe-section span{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .subscribe p{
+    font-size: 15px;
+  }
+
+  .copyrights-section{
+    width: 100%;
+  }
+  .copyright{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .personal-info{
+    display: none;
+  }
+}

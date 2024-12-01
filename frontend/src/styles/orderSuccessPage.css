@@ -1,0 +1,74 @@
+.success-container{
+  padding: 10px 25px;
+  min-height: 470px;
+}
+
+.success-info{
+  width: 360px;
+  text-align: center;
+  margin-left: 38%;
+}
+
+.success-img{
+  width: 170px;
+  height: 170px;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
+.success-icon{
+  color: rgba(50, 182, 56, 1);
+  width: 158px;
+  height: 158px;
+  box-shadow: 0 0 0 20px rgba(50, 182, 56, 0.12);
+  border-radius: 50%;
+}
+
+.success-msg{
+  width: 349px;
+  margin-left: 10px;
+}
+
+.success-msg p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.success-msg span{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(131, 133, 138, 1);
+}
+
+.order-msg{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.order-msg p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(3, 8, 31, 1);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.back-home{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgba(252, 138, 6, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  color: rgba(255, 255, 255, 1);
+}
