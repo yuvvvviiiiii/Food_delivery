@@ -35,7 +35,7 @@ const Navbar = ({openModal, closeModal}) => {
             My Cart
           </button>
           <button className='value-btn'>
-          GBP 79.89
+          
           </button>
           <button className='forward-btn' onClick={closeModal}>
             <img src={forward_button} alt="" />

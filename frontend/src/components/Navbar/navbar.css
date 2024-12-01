@@ -40,7 +40,9 @@
 
 .cart-btn{
   display: flex;
-  width: 308px;
+  width: 350px;
+  background-color: rgba(2, 134, 67, 1);
+  border-radius: 0 0 10px 10px;
 }
 
 .shopping-btn{
@@ -50,6 +52,11 @@
   background-color: rgba(2, 134, 67, 1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 0 0 10px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .shopping-btn img{
@@ -64,6 +71,7 @@
   padding: 0px 15px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 25%;
 }
 
 .forward-btn{
@@ -71,6 +79,7 @@
   padding: 0 15px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 0 10px 0;
+  width: 25%;
 }
 
 .nav-content{

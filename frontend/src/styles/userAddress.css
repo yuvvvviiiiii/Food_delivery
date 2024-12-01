@@ -244,3 +244,113 @@
   margin-right: 10px;
   color: rgba(175, 175, 175, 1);
 }
+
+@media screen and (max-width: 786px){
+  .address-container{
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    
+  }
+
+  .address-header{
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .back-btn{
+    width: 24px;
+    height: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .address-header p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 10px;
+  }
+
+  .add-address{
+    width: 100%;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+
+  .address-section{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .plus-sign{
+    height: 27px;
+    width: 27px;
+    left: 90px;
+    top: 10px;
+  }
+
+  .plus-icon{
+    height: 20px;
+    width: 20px;
+    left: 95px;
+  }
+
+  .address-section p{
+    font-size: 18px;
+    line-height: 21px;
+    top: 5px;
+    left: 130px;
+  }
+
+  .address-card{
+    width: 100%;
+    height: 180px;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .user-name p{
+    margin: 0;
+  }
+  .address-desc{
+    min-height: 100px;
+  }
+
+  .address-modal{
+    width: 90%;
+    height: 450px;
+    left: 25px;
+    top: 180px;
+    padding: 10px;
+  }
+
+  .address-form{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+  }
+
+  .form-select{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .add-input{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .full-address{
+    width: 100%;
+    height: 100px;
+  }
+
+  .save-btn{
+    width: 90%;
+    bottom: 10px;
+  }
+}

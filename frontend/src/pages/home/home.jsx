@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import '../../styles/home.css';
-import { banner1, banner2, download_img, food_icon, logo, next_btn, order_food, order_icon, tickbox, tracking_icon } from '../../assets';
+import { banner1, banner2, download_img, food_icon, logo, next, next_btn, order_food, order_icon, tickbox, tracking_icon } from '../../assets';
 import { fetchImage } from '../../utils';
 import PopularRestaurants from '../../components/PopularRestaurants/PopularRestaurants';
 
@@ -43,6 +43,7 @@ export default function Home() {
               <div className='banner-input'>
               <input type="text" placeholder='e.g. EC4R 3TE' />
               <button>search</button>
+              <div className='banner-icon'><img src={next} alt="" /></div>
               </div>
             </div>
             <div className='main-image'>

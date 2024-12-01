@@ -8,6 +8,14 @@
   margin-bottom: 20px;
 }
 
+.arrow-bg{
+  border: none;
+}
+
+.checkout-text{
+  display: none;
+}
+
 .left-arrow{
   width: 39px;
   height: 39px;
@@ -15,7 +23,7 @@
   margin-top: 2px;
 }
 
-.checkout-header p{
+.order-details{
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
@@ -246,4 +254,74 @@
   font-weight: 600;
   line-height: 19.2px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .checkout-container{
+    padding: 10px ;
+  }
+  .checkout-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .arrow-bg{
+    background-color: rgba(252, 138, 6, 1);
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .left-arrow{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .order-details{
+    display: none;
+  }
+
+  .checkout-text{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px; 
+    margin-left: 10px;
+  }
+
+  .order-summary{
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .order-items{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .order-info{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .order-name{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+  }
+
+  .order-text {
+    margin-left: 10px;
+  }
+
+  .order-price{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    width: 40px;
+  }
 }

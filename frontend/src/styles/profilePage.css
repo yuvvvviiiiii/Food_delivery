@@ -318,3 +318,154 @@
   width: 16px;
   height: 16px;
 }
+
+@media screen and (max-width: 768px){
+  .profile-container{
+    padding: 15px;
+    height: fit-content;
+  }
+
+  .profile-header{
+    margin: 10px;
+    height: fit-content;
+  }
+
+  .profile-arrow{
+    width: 24px;
+    height: 24px;
+  }
+
+  .profile-header p{
+    font-size: 24px;
+    line-height: 31.2px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .profilename{
+    display: none;
+  }
+
+  .profile-edit{
+    position: absolute;
+    top: 10%;
+    right: 50px;
+  }
+
+  .profile-info{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile-input{
+    width: 100%;
+    height: 65px;
+    padding: 10px;
+  }
+
+  .saved-payment{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .saved-header{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .all-cards{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .saved-card{
+    width: 100%;
+    margin: 10px 0;
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  .card-text{
+    width: 70%;
+    margin: 0 10px;
+  }
+
+  .add-new-card{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .modal-bg{
+    height: 100%;
+    width: 100%;
+  }
+  .profile-modal{
+    width: 80%;
+    height: fit-content;
+    left: 30px;
+  }
+
+  .modal-header{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 10px;
+  }
+
+  .modal-info{
+    height: 48px;
+    margin: 10px;
+  }
+
+  .modal-info label{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 55%;
+  }
+
+  .modal-info input{
+    width: 70%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .modal-footer{
+    width: 100%;
+    height: fit-content;
+    background: none;
+  }
+
+  .modal-btn{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .save-modal{
+    height: 44px;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: rgba(252, 138, 6, 1);
+    border-radius: 8px;
+  }
+
+  .cancel-btn{
+    height: 44px;
+    width: 45%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: rgba(102, 55, 0, 1);
+    border-radius: 8px;
+  }
+}

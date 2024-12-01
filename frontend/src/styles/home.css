@@ -711,9 +711,12 @@
 }
 
 .straight-mark{
-  color: rgba(217, 217, 217, 1);
-  font-size: 100px;
-  font-weight: 100;
+  border: 1px solid rgba(217, 217, 217, 1);
+  height: 100px;
+}
+
+.banner-icon{
+  display: none;
 }
 
 @media screen and (max-width: 768px){
@@ -730,7 +733,7 @@
     position: absolute;
     top: 0;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .banner-order{
@@ -739,9 +742,62 @@
     color: rgba(255, 255, 255, 1);
   }
   .feast{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
+  }
+
+  .postcode{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .fast{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(252, 138, 6, 1);
+  } 
+
+  .banner-input{
+    background-color: rgba(255, 255, 255, 1);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: absolute;
+    left: 25%;
+  }
+
+  .banner-input input{
+    width: 75%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .banner-icon{
+    display: block;
+    width: 50px;
+    height: 100%;
+    background-color: rgba(252, 138, 6, 1);
+    border-radius: 50%;
+    z-index: 999999;
+  }
+
+  .banner-icon img{
+    width: 34px;
+    height: 34px;
+    margin-top: 5px;
+  }
+
+  .banner-input button{
+    display: none;
   }
 
   .main-image{
@@ -754,8 +810,9 @@
     display: none;
   }
 
-  .exclusive-deal{
+  .exlusive-deal{
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .deals-header{
@@ -813,9 +870,9 @@
     margin-bottom: 0;
   }
   .restaurant-card{
-    display: inline-flex;
-    width: 290px;
-    height: 150px;
+    white-space: nowrap;
+    min-width: 240px;
+    max-height: 150px;
     margin: 10px;
   }
 
@@ -1176,6 +1233,7 @@
     border: 1px solid rgba(217, 217, 217, 1);
     font-size: 0;
     width: 35%;
+    height: 0;
     margin: 10px;
   }
 

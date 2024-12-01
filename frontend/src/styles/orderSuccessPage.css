@@ -72,3 +72,24 @@
   line-height: 18.2px;
   color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 768px){
+  .success-container{
+    padding: 10px 20px;
+  }
+
+  .success-info{
+    width: 100%;
+    margin-left: 0;
+    height: fit-content;
+  }
+
+  .success-img{
+    margin-top: 20px;
+    margin-left: 28%;
+  }
+
+  .success-msg{
+    margin-left: 20px;
+  }
+}
