@@ -212,28 +212,28 @@ export default function ProductPage() {
         <div className="offer-title">
           <p>Fries</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title ">
           <p>Snacks</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Salads</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Cold drinks</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Happy Meal®</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Desserts</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Hot drinks</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Sauces</p>
         </div>
-        <div className="offer-title">
+        <div className="offer-title offers">
           <p>Orbit®</p>
         </div>
       </div>
@@ -308,7 +308,7 @@ export default function ProductPage() {
                         </div>
                       </div>
                       <div className="product-right">
-                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" className="product-img"/>
                         <div className="product-add" onClick={() => addPrdouct(product)}>
                           <img src={plus_icon} alt="Add-product" />
                         </div>
@@ -333,7 +333,7 @@ export default function ProductPage() {
                         </div>
                       </div>
                       <div className="product-right">
-                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" className="product-img"/>
                         <div className="product-add" onClick={() => addPrdouct(product)}>
                           <img src={plus_icon} alt="Add-product" />
                         </div>
@@ -358,7 +358,7 @@ export default function ProductPage() {
                         </div>
                       </div>
                       <div className="product-right">
-                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" className="product-img"/>
                         <div className="product-add" onClick={() => addPrdouct(product)}>
                           <img src={plus_icon} alt="Add-product" />
                         </div>

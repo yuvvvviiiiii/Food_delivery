@@ -126,7 +126,7 @@
   height: 100%;
   width: 100%;
 }
-
+/* responsive design */
 @media screen and (max-width: 768px){
   .container-login_{
     width: 100%;
@@ -162,7 +162,7 @@
   }
 
   .login-div{
-    margin-left: 0;
+    margin: 0;
     height: 80%;
     width: 100%;
   }
