@@ -719,6 +719,7 @@
   display: none;
 }
 
+/* responsive design */
 @media screen and (max-width: 768px){
   .banner{
     height: 270px;
