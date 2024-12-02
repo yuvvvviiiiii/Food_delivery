@@ -953,8 +953,6 @@
   color: rgba(255, 255, 255, 1);
   line-height: 36px;
 }
-
-
 @media screen and (max-width: 786px){
   .product-banner{
     width: 100%;
@@ -1159,7 +1157,7 @@
     width: 95%;
     height: 500px;
     margin-bottom: 20px;
-    /* margin: 10px; */
+    margin: 10px;
   }
   .map-info{
     width: 90%;
@@ -1185,3 +1183,4 @@
   }
 
 }
+
